@@ -1,30 +1,61 @@
 {
-  "name": "telegram-tl-node",
-  "version": "0.11.5",
-  "description": "Telegram TypeLanguage library",
-  "keywords": [
-    "telegram",
-    "tl",
-    "typelanguage",
-    "type-language",
-    "library"
+  "_args": [
+    [
+      {
+        "raw": "telegram-tl-node@latest",
+        "scope": null,
+        "escapedName": "telegram-tl-node",
+        "name": "telegram-tl-node",
+        "rawSpec": "latest",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Arthi/Documents/JSSDK/node_modules/telegram.link"
+    ]
   ],
-  "author": "Enrico Stara <enrico.stara@gmail.com>",
-  "homepage": "https://github.com/enricostara/telegram-tl-node",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/enricostara/telegram-tl-node.git"
+  "_from": "telegram-tl-node@latest",
+  "_id": "telegram-tl-node@0.11.5",
+  "_inCache": true,
+  "_location": "/telegram-tl-node",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "enricostara",
+    "email": "enrico.stara@gmail.com"
+  },
+  "_npmVersion": "2.7.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "telegram-tl-node@latest",
+    "scope": null,
+    "escapedName": "telegram-tl-node",
+    "name": "telegram-tl-node",
+    "rawSpec": "latest",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/telegram-mt-node",
+    "/telegram.link"
+  ],
+  "_resolved": "https://registry.npmjs.org/telegram-tl-node/-/telegram-tl-node-0.11.5.tgz",
+  "_shasum": "49b6910895254e844faa11c1d2f6c2a117a15c8a",
+  "_shrinkwrap": null,
+  "_spec": "telegram-tl-node@latest",
+  "_where": "/Users/Arthi/Documents/JSSDK/node_modules/telegram.link",
+  "author": {
+    "name": "Enrico Stara",
+    "email": "enrico.stara@gmail.com"
   },
   "bugs": {
     "url": "https://github.com/enricostara/telegram-tl-node/issues"
   },
-  "license": "MIT",
   "dependencies": {
     "colors": "1.1.2",
     "get-log": "latest",
-    "requirish": "latest",
-    "jsbn": "0.0.0"
+    "jsbn": "0.0.0",
+    "requirish": "latest"
   },
+  "description": "Telegram TypeLanguage library",
   "devDependencies": {
     "codeclimate-test-reporter": "0.1.0",
     "coveralls": "2.11.3",
@@ -37,12 +68,41 @@
     "mocha-lcov-reporter": "0.0.2",
     "should": "7.0.2"
   },
-  "main": "index",
+  "directories": {},
+  "dist": {
+    "shasum": "49b6910895254e844faa11c1d2f6c2a117a15c8a",
+    "tarball": "https://registry.npmjs.org/telegram-tl-node/-/telegram-tl-node-0.11.5.tgz"
+  },
   "engines": {
     "node": ">0.10.30"
   },
+  "gitHead": "8aa73dab03f0be18dfa74f81bec2ee94dec5c9e7",
+  "homepage": "https://github.com/enricostara/telegram-tl-node",
+  "keywords": [
+    "telegram",
+    "tl",
+    "typelanguage",
+    "type-language",
+    "library"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "maintainers": [
+    {
+      "name": "enricostara",
+      "email": "enrico.stara@gmail.com"
+    }
+  ],
+  "name": "telegram-tl-node",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/enricostara/telegram-tl-node.git"
+  },
   "scripts": {
-    "test": "DEBUG=-mocha*,* ./node_modules/gulp/bin/gulp.js test",
-    "coveralls": "DEBUG=-mocha*,* istanbul cover ./node_modules/gulp/bin/gulp.js cover && cat ./coverage/lcov.info | coveralls && codeclimate < ./coverage/lcov.info &&  rm -rf ./coverage"
-  }
+    "coveralls": "DEBUG=-mocha*,* istanbul cover ./node_modules/gulp/bin/gulp.js cover && cat ./coverage/lcov.info | coveralls && codeclimate < ./coverage/lcov.info &&  rm -rf ./coverage",
+    "test": "DEBUG=-mocha*,* ./node_modules/gulp/bin/gulp.js test"
+  },
+  "version": "0.11.5"
 }
